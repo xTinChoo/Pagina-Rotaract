@@ -1,0 +1,25 @@
+.encabezado{
+    text-align: center;
+    margin: 2%;
+}
+
+.titulo{
+    color: #80304c;
+    margin: 5px;
+}
+
+.link{
+    color: rgb(50, 50, 172);
+    text-decoration:underline;
+}
+
+.noticias{
+    margin: 5%;
+}
+
+.item{
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

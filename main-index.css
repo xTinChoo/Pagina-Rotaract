@@ -1,0 +1,59 @@
+/*------------------------MAIN-------------------------*/
+
+.main-elementos{
+    /*    
+    border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    margin-bottom: 10%;
+}
+
+.main-contactos{
+    width: 80%;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.main-letra{
+    color: #41081c;
+}
+
+.main-letra:hover{
+    background-color: #ffdee9;
+    transition: all .3s ease;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.main-mapa{
+    margin: 1%;
+    color: #41081c;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+#como-llegar{
+    /*  border: 1px solid #41081c; */
+    width: 70%;
+    font-size: 2vw;
+    text-align: start;
+}
+
+.main-sponsor{
+    margin-top: 5%;
+}
+
+.imgsponsor{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}

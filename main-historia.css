@@ -1,0 +1,31 @@
+.titulo{
+    color: #80304c;
+    text-align: center;
+    margin-top: 2%;
+}
+
+table,td{
+    border: 2px solid #80304c;
+    margin: 5%;
+}
+
+td{
+    width: 25%;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.año{
+    font-size: 200%;
+}
+
+.descripcion{
+    text-align: justify;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.img:hover{
+    width: 100%;
+    transition: all .3s ease;
+}

@@ -65,15 +65,20 @@
         <h1 class="titulo">Contactanos!</h1>
 
         <div class="contactos">
-            <a class="link" href="http://instagram.com/rotaractjuninsur/"><img class="imagen" src="imagenes/instagram.png" alt=""></a>
-            <a class="link" href="https://www.facebook.com/rotaract.juninsur"><img class="imagen" src="imagenes/facebook.png" alt=""></a>
-            <a class="link" href="http://www.twitter.com/RotaractJSur"><img class="imagen" src="imagenes/twitter.png" alt=""></a>
-            <a class="link" href="contacto@rotaractjuninsur.org"><img class="imagen" src="imagenes/mail.png" alt=""></a>
+                <a class="link" href="http://instagram.com/rotaractjuninsur/"><img class="imagen" src="imagenes/instagram.png" alt=""></a>
+                <a class="link" href="https://www.facebook.com/rotaract.juninsur"><img class="imagen" src="imagenes/facebook.png" alt=""></a>
+                <a class="link" href="http://www.twitter.com/RotaractJSur"><img class="imagen" src="imagenes/twitter.png" alt=""></a>
+                <a class="link" href="contacto@rotaractjuninsur.org"><img class="imagen" src="imagenes/mail.png" alt=""></a>
         </div>
 
     </div>
 
+
+
+
+
     <style>
+
         .titulo{
             color: #80304c;
             margin: 2%;
@@ -81,15 +86,41 @@
         }
 
         .contactos{
-            display: flex;
-            flex-wrap: wrap;
             margin: 5%;
-            justify-content: space-between;
-            align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 100px;
+        }
+        
+        .imagen{
+            height: 400px;
         }
 
-        .link{
+        @media (max-width: 768px) {
+            .contactos{
             margin: 5%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .imagen{
+            height: 200px;
+        }
+        }
+
+        @media (max-width: 425px) {
+            .contactos{
+            margin: 5%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .imagen{
+            height: 200px;
+        }
         }
     </style>
 

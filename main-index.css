@@ -57,3 +57,22 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media (max-width: 425px) {
+    .main-letra{
+        font-size: 3vw;
+    }
+
+    .main-mapa{
+        font-size: 3vw;
+    }
+
+    #como-llegar{
+        font-size: 3vw;
+
+    }
+
+    .main-sponsor{
+        font-size: 3vw;
+    }
+}

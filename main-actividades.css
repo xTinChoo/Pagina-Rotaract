@@ -41,3 +41,18 @@ hr{
         margin-bottom: 4%;
     }
 }
+
+
+@media (max-width: 768px) {
+    .texto-desc{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 320px) {
+    .imagen{
+        width: 75%;
+    }
+}
+

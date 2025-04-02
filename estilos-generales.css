@@ -191,3 +191,14 @@ hr{
     font-size: 2vw;
 }
 }
+
+@media (max-width: 425px) {
+
+    .navbar-elemento{
+        font-size: 3vw;
+    }
+
+    .sidebar-texto{
+        font-size: 4vw;
+    }
+}

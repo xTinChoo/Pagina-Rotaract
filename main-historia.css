@@ -9,6 +9,7 @@ table,td{
     margin: 5%;
 }
 
+
 td{
     width: 25%;
     text-align: center;
@@ -24,8 +25,15 @@ td{
     padding: 10px;
     font-size: 12px;
 }
-
 .img:hover{
     width: 100%;
     transition: all .3s ease;
+}
+
+
+@media (max-width: 425px) {
+    
+    .descripcion{
+        font-size: 6px;
+    }
 }
